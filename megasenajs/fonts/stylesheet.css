@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Samsung';
+    src: url('SamsungSharpSans-Bold.woff2') format('woff2'),
+        url('SamsungSharpSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

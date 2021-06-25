@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+  background: #efefef;
+  font-family: 'Lato', sans-serif;
+}
+
+table {
+  margin-top: 5px;
+  border: none;
+  background-color: #1874CD !important;
+  text-align: center;
+}
+
+th {
+  background-color: #1874CD;
+  color: #fff;
+  border: solid 1px #efefef;
+  padding: 5px 10px;
+}
+
+td {
+  background-color: #efefef;
+  border: solid 1px #efefef;
+  padding: 5px 10px;
+}
+
+/* .container{ width: 980px; margin: auto; font-weight: bold; } */
+.cabecalho {
+  background: #1874CD;
+}
+
+.header h1 {
+  font-size: 26px;
+  color: #fff;
+  padding: 15px;
+  font-weight: bold;
+}
+
+
+.conteudo {
+  padding: 10px;
+  background: #efefef;
+}
+
+.conteudo h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.conteudo p {
+  line-height: 135%;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.entrada {
+  margin-bottom: 10px;
+}
+
+.entrada label {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0px 0px 0px 10px;
+}
+
+.entrada input[type=text] {
+  display: block;
+  margin: 0;
+  margin-top: 5px;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+}
+
+.entrada input[type=text]:focus {
+  border-bottom: solid 2px #969696;
+}
+
+.divbotao {
+  margin-top: 10px;
+}
+
+.botao,
+input[type=submit] {
+  border: 0!important;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff !important;
+  font-size: 20px;
+  background: #1874CD;
+  margin-right: 10px;
+  padding: 10px 20px 10px 20px!important;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+#btnLimpar{
+  padding: 12px 20px 12px 20px!important;
+}
+.botao:hover,
+input[type=submit]:hover {
+  background: #00BFFF;
+  text-decoration: none;
+}
+
+#divresultado {
+  margin-top: 15px;
+  padding: 10px;
+  display: none;
+}
+
+/* 
+.formulario{ margin-top: 40px; width: 50%; float: left; }
+
+.direita { 
+  margin-top: 40px; 
+  width: 40%; 
+  float: right;
+} */
+
+img {
+  padding-top: 10px;
+}
+
+.direita p {
+  font-size: 11px;
+  text-align: center;
+
+}
+
+.rodape {
+  /* position: fixed;
+  left: 0px;
+  bottom:0px;
+  height:30px;
+  width: 100%;
+  padding: 10px; */
+  background: #1874CD;
+  color: white;
+  font-weight: bold;
+}
+
+.rodape p {
+  padding: 5px;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  .direita {
+    margin-top: 20px;    
+  }
+  .rodape p{
+    font-size: 16px;
+    text-align: center;
+  }
+}
